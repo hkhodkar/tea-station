@@ -1,0 +1,14 @@
+{
+  "name": "tea-station",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node-sass -w ./sass/main.scss ./css/styles.css & live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

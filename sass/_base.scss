@@ -1,0 +1,101 @@
+:root {
+    --color-primary: #678e3e;
+    --color-primary-light: #beed8c;
+    --color-grey-1: #102a42;
+    --color-grey-5: #617d98;
+    --color-grey-1: #f1f5f8;
+    --color-white: #fff;
+    --ff-primary: "Catamaran", sans-serif;
+    --ff-secondary: "Grand Hotel", cursive;
+    --transition: all .3s linear;
+    --spacing: .4rem;
+    --radius: .8rem
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-primary);
+    background: var(--color-white);
+    color: var(--color-grey-1);
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 1.25rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width:800px) {
+    h1 {
+        font-size: 6.4rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3.2rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        line-height: 2;
+    }
+
+}
